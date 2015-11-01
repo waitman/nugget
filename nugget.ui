@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1231</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Nugget</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QTableView" name="resTable">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="font">
+          <font>
+           <kerning>false</kerning>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::WheelFocus</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>500</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="resBox">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>Droid Sans</family>
+              <pointsize>24</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 255, 127);
+border-top-color: rgb(85, 85, 127);
+border-bottom-color: rgb(85, 85, 127);
+padding: 10px;</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_2">
+             <item row="5" column="0">
+              <widget class="QPushButton" name="bcolon">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>:</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2">
+              <widget class="QPushButton" name="b2">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QPushButton" name="b5">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QPushButton" name="b7">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QPushButton" name="b4">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QPushButton" name="b8">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>8</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="4">
+              <widget class="QPushButton" name="b6">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="4">
+              <widget class="QPushButton" name="b3">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="4">
+              <widget class="QPushButton" name="b9">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>9</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="2">
+              <widget class="QPushButton" name="b0">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QPushButton" name="b1">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="4">
+              <widget class="QPushButton" name="bdot">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>.</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QPushButton" name="bl">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>L</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QPushButton" name="bslash">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>/</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QPushButton" name="bz">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Z</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="0">
+              <widget class="QPushButton" name="bplus">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>+</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPushButton" name="brev">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>REV</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QPushButton" name="bminus">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>-</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QPushButton" name="bdel">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>DEL</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QPushButton" name="bdivide">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>÷</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QPushButton" name="bback">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>BACK</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QPushButton" name="btimes">
+               <property name="minimumSize">
+                <size>
+                 <width>128</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>*</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QPushButton" name="bnew">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>64</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Droid Sans</family>
+                 <pointsize>16</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>NEW</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1231</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
