@@ -42,7 +42,7 @@ Z		future use - unused
 :		time separator
 .		decimal point
 REV		undo/reverse on report
-BACK	backspace on input entry
+BACK		backspace on input entry
 DEL		deletes input entry
 NEW		start new calculation in report
 
@@ -50,7 +50,7 @@ NEW		start new calculation in report
 3) Key Commands
 
 Delete		deletes input entry
-Backspace		backspace on input entry
+Backspace	backspace on input entry
 Q		quit program
 X		undo/reverse on report
 N		start new calculation in report
@@ -98,23 +98,23 @@ the command line parameter "S"
 
 6) Caveats
 
-1.	REV/DEL/BACK can be confusing.
+1. REV/DEL/BACK can be confusing.
 
-2.	"/" on keyboard is "÷", hold shift plus "/" for date seperator.
+2. "/" on keyboard is "÷", hold shift plus "/" for date seperator.
 
-3.	If you click on the report area, keyboard entry may not function as
+3. If you click on the report area, keyboard entry may not function as
 	intended. Click on the keypad to resume keyboard entry.
 	
-4.	Dates are in USA format, m/d/Y. May use system locale in the future.
+4. Dates are in USA format, m/d/Y. May use system locale in the future.
 
-5.	Operations performed on times do not use tenths, ie 1:13:01.7
+5. Operations performed on times do not use tenths, ie 1:13:01.7
 
-6.	Presently use numeric 10-key or touchscreen. To be fixed in future.
+6. Presently use numeric 10-key or touchscreen. To be fixed in future.
 
-7.	Times may be added or subtracted. Times may be divided by a number. 
+7. Times may be added or subtracted. Times may be divided by a number. 
 	Other time operations may not function as desired.
-	
-8.	Result table copy is not currently implemented (future release).
+
+8. Result table copy is not currently implemented (future release).
 
 
 7) License
